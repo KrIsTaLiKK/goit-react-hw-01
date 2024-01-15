@@ -4,7 +4,7 @@ import { SecondaryTitle } from '../secondary-title/SecondaryTitle';
 export const TransactionHistory = ({ items }) => {
   return (
     <div>
-      <SecondaryTitle title="Transactions" />
+      <SecondaryTitle>Transactions</SecondaryTitle>
       <table className={css.transactionTable}>
         <caption className={css.tableTitle}>Transaction history</caption>
         <thead>

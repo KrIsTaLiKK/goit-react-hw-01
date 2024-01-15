@@ -6,7 +6,7 @@ import css from './FriendList.module.css';
 export const FriendList = ({ friends }) => {
   return (
     <div className={css.friendListSection}>
-      <SecondaryTitle title="Friends" />
+      <SecondaryTitle>Friends</SecondaryTitle>
       <ul className={css.friendList}>
         {friends.map(friend => {
           return (
